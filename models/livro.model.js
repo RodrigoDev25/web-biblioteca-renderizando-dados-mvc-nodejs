@@ -25,7 +25,7 @@ function listarLivros() {
             autor: "Maria",
             genero: "Drama",
             ano: 2025,
-            capa_url: "http://localhost:3000/imagens/imagem-01.png" 
+            capa_url: "https://m.media-amazon.com/images/I/710CrKZ5U9L._UF1000,1000_QL80_.jpg" 
         },
         { 
             id: 2,
@@ -33,7 +33,7 @@ function listarLivros() {
             autor: "Rodrigo",
             genero: "Fantasia",
             ano: 2010,
-            capa_url: "http://localhost:3000/imagens/imagem-02.png" 
+            capa_url: "https://m.media-amazon.com/images/I/61jgm6ooXzL._UF1000,1000_QL80_.jpg" 
         },
         { 
             id: 3,
@@ -41,7 +41,7 @@ function listarLivros() {
             autor: "Nicolas Cage",
             genero: "Ação",
             ano: 2023,
-            capa_url: "http://localhost:3000/imagens/imagem-03.png" 
+            capa_url: "https://cdn.awsli.com.br/2681/2681306/produto/243242746/senhor-mhv6t7orxo.png" 
         }
     ] // MOCK - Simulação de dados
 

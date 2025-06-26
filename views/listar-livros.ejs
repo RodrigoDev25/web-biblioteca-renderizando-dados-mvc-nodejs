@@ -1,11 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de livros</title>
+    <style>
+        img {
+            width: 150px;
+        }
+    </style>
 </head>
+
 <body>
+
     <h1>Você está na página de listagem de livros</h1>
+
+    <hr>
+    <ul>
+        <% livros.forEach(livro=> { %>
+
+            <li>
+                <%= livro.nome %>
+               
+                <%= " - " + livro.autor %>
+
+            </li>
+            <% }) %>
+    </ul>
+    <!-- <ul>
+        <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Hacker-3342696_1920-1024x788.jpg/1280px-Hacker-3342696_1920-1024x788.jpg"
+                alt="imagem">
+            NOME DO LIVRO, NOME DO AUTOR, ANO DO LIVRO
+    </ul>  -->
+
 </body>
+
 </html>

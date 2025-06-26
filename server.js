@@ -1,9 +1,7 @@
 // Importar o módulo express
 const express = require('express');
-
 // Importar o controllers
 const livroController = require('./controllers/livro.controller');
-
 // Cria uma instância do express
 const app = express();
 
@@ -16,5 +14,5 @@ app.get('/livros', livroController.listarLivros )
 
 // Configura a porta do servidor
 app.listen(3000, function() {
-    console.log("Servidor rodando com sucesso")
+    console.log("Servidor escutando na porta 3000")
 })
